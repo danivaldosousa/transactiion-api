@@ -1,5 +1,9 @@
+#Bibliotecas
 node_modules
-db/app.sqlite
 
+#Banco de dados
+db/*.sqlite
+
+#Env
 .env
 .env.test
