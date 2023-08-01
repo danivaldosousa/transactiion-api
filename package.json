@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Api for registering transactions - backend",
   "main": "index.js",
+  "engines": {
+    "node": ">= 18"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js",
@@ -13,6 +16,16 @@
   "keywords": [],
   "author": "Danivaldo Sousa",
   "license": "ISC",
+  
+  "dependencies": {
+    "@fastify/cookie": "^8.3.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.20.0",
+    "knex": "^2.5.1",
+    "pg": "^8.8.0",
+    "sqlite3": "^5.1.6",
+    "zod": "^3.21.4"
+  },
   "devDependencies": {
     "@rocketseat/eslint-config": "^1.2.0",
     "@types/node": "^20.4.5",
@@ -23,13 +36,5 @@
     "tsx": "^3.12.7",
     "typescript": "^5.0.4",
     "vitest": "^0.33.0"
-  },
-  "dependencies": {
-    "@fastify/cookie": "^8.3.0",
-    "dotenv": "^16.0.3",
-    "fastify": "^4.20.0",
-    "knex": "^2.5.1",
-    "sqlite3": "^5.1.6",
-    "zod": "^3.21.4"
   }
 }
