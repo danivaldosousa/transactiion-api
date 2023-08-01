@@ -2,3 +2,4 @@ node_modules
 db/app.sqlite
 
 .env
+.env.test
