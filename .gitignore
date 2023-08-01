@@ -7,3 +7,6 @@ db/*.sqlite
 #Env
 .env
 .env.test
+
+#Build
+build
